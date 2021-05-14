@@ -23,7 +23,7 @@ const User = new mongoose.model("User",userScheme);
 
 app.get("/",function(req,res){
   res.render("home");
-});
+}); 
 
 app.get("/register",function(req,res){
   res.render("register");
